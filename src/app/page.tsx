@@ -1,7 +1,8 @@
+import { ImageGallery1 } from "./_components/gallery/image-gallery-1";
+import images from "../../public/data/images-2-3.json"
+
 export default function Home() {
   return (
-    <div className="font-sans">
-      Hello world
-    </div>
+    <ImageGallery1 images={images}/>
   );
 }
